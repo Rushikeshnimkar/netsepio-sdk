@@ -1,9 +1,10 @@
+// src/types.ts
+
 export type sayHelloProps  = {
     firstName: string,
     lastName?: string,
     age?: number
 }
-// src/types.ts
 
 export interface Review {
     metaDataUri: string;
@@ -20,4 +21,9 @@ export interface Review {
     createdAt: string;
     voter: string;
     name: string;
-  }
+}
+
+export interface ReviewStats {
+    totalReviews: Review[];
+    totalCount: number;
+}
