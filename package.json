@@ -1,5 +1,5 @@
 {
-  "name": "@p_momeni/say-hello-functions",
+  "name": "@Rushikeshnimkar/sdk-test-netsepio",
   "version": "0.0.2",
   "engines": {
     "node": ">=18.0.0"
@@ -7,7 +7,7 @@
   "homepage": "https://google.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/parsaM110/my-first-npm-package.git"
+    "url": "https://github.com/Rushikeshnimkar/sdk-test-netsepio.git"
   },
   "description": "Just a test package",
   "main": "./dist/index.js",
@@ -22,7 +22,7 @@
     "test",
     "hello"
   ],
-  "author": "parsa_momeni",
+  "author": "Rushikeshnimkar",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.12",
