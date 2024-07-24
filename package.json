@@ -1,0 +1,35 @@
+{
+  "name": "@p_momeni/say-hello-functions",
+  "version": "0.0.2",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "homepage": "https://google.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parsaM110/my-first-npm-package.git"
+  },
+  "description": "Just a test package",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "echo": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "build": "tsup"
+  },
+  "keywords": [
+    "test",
+    "hello"
+  ],
+  "author": "parsa_momeni",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
